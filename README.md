@@ -179,13 +179,22 @@ PASS  tests/sweet.test.js
 Forgot Password
 
 
-<img width="428" height="880" alt="Screenshot 2025-11-02 133339" src="https://github.com/user-attachments/assets/0b025f6c-5c29-470b-9e75-1eb06408ec7b" />
-
-
-<img width="427" height="907" alt="image" src="https://github.com/user-attachments/assets/fe20dd54-632b-4cd3-b83a-569c4741ba46" />
+<img width="380" height="300" alt="Screenshot 2025-11-02 133339" src="https://github.com/user-attachments/assets/0b025f6c-5c29-470b-9e75-1eb06408ec7b" />
 
 
 
+<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/fe20dd54-632b-4cd3-b83a-569c4741ba46" />
+
+
+Database
+Role Database
+
+<img width="1560" height="339" alt="Screenshot 2025-11-02 134100" src="https://github.com/user-attachments/assets/c1170c6c-668e-4365-9bb1-1709ca67964b" />
+
+
+Sweet Database
+
+<img width="1560" height="278" alt="Screenshot 2025-11-02 134127" src="https://github.com/user-attachments/assets/9b58a905-ae00-4aec-890a-fb06d5d6a810" />
 
 
 
