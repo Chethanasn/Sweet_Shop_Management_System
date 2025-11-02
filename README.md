@@ -146,19 +146,27 @@ PASS  tests/sweet.test.js
 
 
 📸 Screenshots
-🔑 Login & Register
+ Login Page 
 
 <img width="380" height="300" alt="Screenshot 2025-11-02 130741" src="https://github.com/user-attachments/assets/4064fc5e-bbd3-4368-b75f-7e69fd24cdca" />
 
+ Register Page
+-->User 
+ <img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/d0f586a8-72b5-4f5e-b846-e021fc828086" />
+-->Admin
+<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/e8ea40ee-e8cd-489d-90a6-4ec80f077238" />
+
 
 🧍 User Dashboard
+<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/6dca19d0-ca86-4766-a1a3-dce54b5d9611" />
+
 
 🧑‍💼 Admin Dashboard
+<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/1ac96b80-6b83-44b8-a2a2-7069c7515b02" />
 
-📧 Password Reset
 
 
-(Replace these image paths with your actual screenshots)
+
 
 
 
