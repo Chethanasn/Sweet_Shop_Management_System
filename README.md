@@ -148,42 +148,42 @@ PASS  tests/sweet.test.js
 📸 Screenshots
  Login Page 
 
-<img width="380" height="300" alt="Screenshot 2025-11-02 130741" src="https://github.com/user-attachments/assets/4064fc5e-bbd3-4368-b75f-7e69fd24cdca" />
+<img width="380" height="300" alt="Screenshot 2025-11-02 130741" src="https://github.com/user-attachments/assets/4f469f7d-1e03-4d17-a22b-01ea443dbe13" />
 
  Register Page
  
 -->User 
 
 
- <img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/d0f586a8-72b5-4f5e-b846-e021fc828086" />
+<img width="380" height="300" alt="Screenshot 2025-11-02 132629" src="https://github.com/user-attachments/assets/23544597-af9e-4df6-8196-5f4b1d682f43" />
 
  
 -->Admin
 
 
-<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/e8ea40ee-e8cd-489d-90a6-4ec80f077238" />
+<img width="380" height="300" alt="Screenshot 2025-11-02 132831" src="https://github.com/user-attachments/assets/4b33f6ab-f22e-402f-b9a1-9ca447353560" />
 
 
 
 🧍 User Dashboard
 
 
-<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/6dca19d0-ca86-4766-a1a3-dce54b5d9611" />
+<img width="380" height="300" alt="Screenshot 2025-11-02 133019" src="https://github.com/user-attachments/assets/291b19ee-c29f-4a45-9557-ebfc262cbe6d" />
 
 
 🧑‍💼 Admin Dashboard
 
 
-<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/1ac96b80-6b83-44b8-a2a2-7069c7515b02" />
+<img width="380" height="300" alt="Screenshot 2025-11-02 133115" src="https://github.com/user-attachments/assets/525dfc33-9713-44ee-9797-ff0dacf449bf" />
 
 Forgot Password
 
 
-<img width="380" height="300" alt="Screenshot 2025-11-02 133339" src="https://github.com/user-attachments/assets/0b025f6c-5c29-470b-9e75-1eb06408ec7b" />
+<img width="428" height="880" alt="Screenshot 2025-11-02 133339" src="https://github.com/user-attachments/assets/bc0c34dc-0547-47d3-a41d-67dec8f527ab" />
 
 
 
-<img width="380" height="300" alt="image" src="https://github.com/user-attachments/assets/fe20dd54-632b-4cd3-b83a-569c4741ba46" />
+<img width="427" height="907" alt="Screenshot 2025-11-02 133359" src="https://github.com/user-attachments/assets/f53cc9e1-8512-4652-87ed-00e9df73148c" />
 
 
 
@@ -193,13 +193,15 @@ Database
 Role Database
 
 
-<img width="1560" height="339" alt="Screenshot 2025-11-02 134100" src="https://github.com/user-attachments/assets/c1170c6c-668e-4365-9bb1-1709ca67964b" />
+<img width="1560" height="339" alt="Screenshot 2025-11-02 134100" src="https://github.com/user-attachments/assets/46add49c-239e-40c2-b550-d58fec65dd2c" />
+
 
 
 Sweet Database
 
 
-<img width="1560" height="278" alt="Screenshot 2025-11-02 134127" src="https://github.com/user-attachments/assets/9b58a905-ae00-4aec-890a-fb06d5d6a810" />
+<img width="1510" height="278" alt="Screenshot 2025-11-02 134127" src="https://github.com/user-attachments/assets/6b8e30bd-def3-4422-8e02-0a597fd39dc2" />
+
 
 
 
@@ -208,7 +210,7 @@ Sweet Database
 📂 Folder Structure
 
 
-<img width="574" height="400" alt="image" src="https://github.com/user-attachments/assets/cefac21d-767a-44cd-9df2-07aef91003ec" />
+<img width="574" height="300" alt="Screenshot 2025-11-02 134714" src="https://github.com/user-attachments/assets/12b127ac-a437-4895-8a88-04012de068b6" />
 
 
 
@@ -259,6 +261,7 @@ The Sweet Shop Management System demonstrates a well-structured full-stack imple
 It reflects modern web development practices — combining performance, usability, and security.
 
 💬 Developed with using React, Node.js, Prisma, and the power of AI-assisted coding.
+
 
 
 
