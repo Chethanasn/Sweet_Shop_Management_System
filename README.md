@@ -147,7 +147,7 @@ PASS  tests/sweet.test.js
 
 📸 Screenshots
 🔑 Login & Register
-<img width="590" height="906" alt="Screenshot 2025-11-02 130741" src="https://github.com/user-attachments/assets/4064fc5e-bbd3-4368-b75f-7e69fd24cdca" />
+<img width="200" height="300" alt="Screenshot 2025-11-02 130741" src="https://github.com/user-attachments/assets/4064fc5e-bbd3-4368-b75f-7e69fd24cdca" />
 
 
 🧍 User Dashboard
@@ -158,3 +158,4 @@ PASS  tests/sweet.test.js
 
 
 (Replace these image paths with your actual screenshots)
+
