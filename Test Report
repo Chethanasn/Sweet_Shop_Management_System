@@ -1,0 +1,141 @@
+Sweet Shop Management System
+TEST REPORT :
+Submitted by: Chethana S N
+
+Project Title: Sweet Shop Management System
+
+Technologies Used: React.js (Frontend), Express.js (Backend), Prisma ORM, PostgreSQL, Tailwind CSS, JWT Authentication
+
+1. Introduction
+The Sweet Shop Management System is a full-stack web application designed to simplify and automate the process of managing a sweet shop’s inventory and sales. The system provides role-based dashboards for Admin and User, enabling efficient sweet management and secure user authentication.
+This report documents the testing procedures, results, and conclusions derived from testing both the frontend and backend components of the system.
+
+2. Objectives of Testing
+The primary objectives of the testing process were:
+
+1.To ensure each module performs as intended.
+2.To verify user and admin authentication flows.
+3.To validate the CRUD functionalities for sweet management.
+4.To confirm data consistency between the frontend and backend.
+5.To verify that role-based access restrictions are enforced securely.
+6.To confirm email notifications work properly for password resets.
+
+3. Test Environment
+
+───────────────────────────────────────────────────────────────
+COMPONENT              | DETAILS
+───────────────────────────────────────────────────────────────
+Operating System        | Windows 10 / 11 (64-bit)
+Node.js Version         | v18.19.0
+npm Version             | v10.2.3
+PostgreSQL Version      | v15.0
+Backend Framework       | Express.js (TypeScript)
+Frontend Framework      | React.js + Vite + TypeScript
+Styling Framework       | Tailwind CSS
+Database ORM            | Prisma ORM
+Authentication Method   | JWT (JSON Web Token)
+Email Service           | Nodemailer (Gmail App Password)
+Testing Tools Used      | Jest, Postman
+Browser Used            | Google Chrome (v128+)
+IDE / Code Editor       | Visual Studio Code
+Server Environment      | Localhost (http://localhost:5000)
+Frontend Environment    | Localhost (http://localhost:5173)
+───────────────────────────────────────────────────────────────
+
+
+
+4. Test Setup
+Backend Setup
+Navigate to backend directory:
+
+cd backend
+npm install
+npm run dev
+
+* The backend runs on http://localhost:5000
+.
+Prisma migrations:
+
+* npx prisma migrate dev --name init
+
+Frontend Setup
+Navigate to frontend directory:
+
+cd frontend
+npm install
+npm run dev
+
+* The frontend runs on http://localhost:5173
+.
+Environment variables configured in .env for backend:
+
+DATABASE_URL=postgresql://postgres:password@localhost:5432/sweetshopdb
+JWT_SECRET=supersecretkey123
+EMAIL_USER=youremail@gmail.com
+EMAIL_PASS=yourapppassword
+
+
+5. Test Scenarios
+───────────────────────────────────────────────────────────────────────────────
+TEST ID | TEST DESCRIPTION                     | EXPECTED RESULT               | ACTUAL RESULT                   | STATUS
+───────────────────────────────────────────────────────────────────────────────
+TC001   | Register new user                    | User created successfully     | User created successfully       | ✅ PASS
+TC002   | Register duplicate email             | “User already exists” message  | Error message displayed        | ✅ PASS
+TC003   | Login with valid user credentials    | Redirect to user dashboard    | Redirected successfully         | ✅ PASS
+TC004   | Login with valid admin credentials   | Redirect to admin dashboard   | Redirected successfully         | ✅ PASS
+TC005   | Login with invalid password          | “Invalid credentials” message | Error displayed                 | ✅ PASS
+TC006   | Forgot password link                 | Reset email sent successfully | Email sent successfully         | ✅ PASS
+TC007   | Reset password with valid token      | Password updated successfully | Password updated successfully   | ✅ PASS
+TC008   | Reset password with expired token    | “Invalid or expired” message  | Error message displayed         | ✅ PASS
+───────────────────────────────────────────────────────────────────────────────
+TC009   | Add a new sweet (Admin)              | Sweet added to database        | Added successfully             | ✅ PASS
+TC010   | Edit existing sweet (Admin)          | Sweet details updated          | Updated successfully           | ✅ PASS
+TC011   | Delete sweet (Admin)                 | Sweet deleted successfully     | Deleted successfully           | ✅ PASS
+TC012   | Restock sweet (Admin)                | Quantity increased             | Quantity updated               | ✅ PASS
+TC013   | View all sweets                      | All sweets fetched correctly   | Displayed successfully         | ✅ PASS
+───────────────────────────────────────────────────────────────────────────────
+TC014   | Search sweets by name                | Filtered list displayed        | Works correctly                | ✅ PASS
+TC015   | Purchase sweet (available)           | Quantity decreased by 1        | Updated successfully           | ✅ PASS
+TC016   | Purchase out-of-stock sweet          | “Out of stock” message shown   | Message displayed              | ✅ PASS
+───────────────────────────────────────────────────────────────────────────────
+TC017   | User accessing admin route           | Access denied message          | Access denied correctly        | ✅ PASS
+TC018   | Admin accessing user route           | Redirect to admin dashboard    | Redirect successful            | ✅ PASS
+TC019   | Unauthorized user (no token) access  | “Unauthorized” message         | Blocked successfully           | ✅ PASS
+───────────────────────────────────────────────────────────────────────────────
+
+
+6. Test Results Summary
+───────────────────────────────────────────────────────────────
+MODULE NAME           | TOTAL TESTS | PASSED | FAILED | STATUS
+───────────────────────────────────────────────────────────────
+Authentication Module  |      8      |   8    |   0    | ✅ PASS
+Admin Module           |      5      |   5    |   0    | ✅ PASS
+User Module            |      4      |   4    |   0    | ✅ PASS
+Access Control Module  |      3      |   3    |   0    | ✅ PASS
+───────────────────────────────────────────────────────────────
+**TOTAL SUMMARY**      |   **20**    | **20** | **0**  | 🟢 **ALL PASSED**
+───────────────────────────────────────────────────────────────
+
+
+7. Observations
+
+1.The system handles both admin and user roles efficiently.
+2.Data synchronization between frontend and backend is consistent.
+3.Password reset emails are delivered correctly via Gmail.
+4.Toast notifications display successful feedback for each action.
+5.All CRUD operations for sweets performed correctly without crashes.
+
+8. Recommendations
+
+1.Add pagination or lazy loading for large sweet lists.
+2.Implement sales analytics and report generation for Admin.
+3.Deploy production versions using Vercel (Frontend) and Render or Railway (Backend).
+4.Add automated testing using Cypress for frontend.
+
+9. Conclusion
+
+All functionalities of the Sweet Shop Management System were thoroughly tested.
+The application meets its functional requirements, performs smoothly across all modules, and demonstrates secure authentication and access control.
+
+No critical issues were found.
+The system is ready for deployment and submission.
