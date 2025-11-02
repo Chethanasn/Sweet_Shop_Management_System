@@ -206,34 +206,11 @@ Sweet Database
 
 
 📂 Folder Structure
-SweetShopMS/
-│
-├── backend/
-│   ├── prisma/
-│   │   └── schema.prisma
-│   ├── src/
-│   │   ├── routes/
-│   │   │   ├── auth.routes.ts
-│   │   │   └── sweet.routes.ts
-│   │   ├── app.ts
-│   │   └── server.ts
-│   ├── .env
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── pages/
-│   │   │   ├── LoginPage.tsx
-│   │   │   ├── RegisterPage.tsx
-│   │   │   ├── UserDashboard.tsx
-│   │   │   ├── AdminDashboard.tsx
-│   │   │   └── ResetPasswordPage.tsx
-│   │   ├── App.tsx
-│   │   └── assets/
-│   ├── package.json
-│   └── tailwind.config.js
-│
-└── README.md
+
+
+<img width="574" height="703" alt="image" src="https://github.com/user-attachments/assets/cefac21d-767a-44cd-9df2-07aef91003ec" />
+
+
 
 🤖 My AI Usage
 
@@ -282,5 +259,6 @@ The Sweet Shop Management System demonstrates a well-structured full-stack imple
 It reflects modern web development practices — combining performance, usability, and security.
 
 💬 Developed with using React, Node.js, Prisma, and the power of AI-assisted coding.
+
 
 
